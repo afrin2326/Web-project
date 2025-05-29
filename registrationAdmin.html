@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Registration</title>
+  <link rel="stylesheet" href="registrationStyle.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Register Admin</h2>
+    <form method="POST" action="registrationAdmin.php" enctype="multipart/form-data">
+      <label>Full Name:</label><br>
+      <input type="text" name="name" required><br><br>
+
+      <label>Email Address:</label><br>
+      <input type="email" name="email" required><br><br>
+
+      <label>Profile Image:</label><br>
+      <input type="file" name="profile" accept="image/*" required><br><br>
+
+      <input type="submit" value="Register">
+    </form>
+  </div>
+</body>
+</html>

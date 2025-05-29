@@ -1,0 +1,37 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #55efc4, #00b894);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+}
+
+/* Back Button */
+.back-btn {
+    background: #ff5733;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.back-btn:hover {
+    background: #c70039;
+}
